@@ -14,6 +14,21 @@ namespace cs0531if
         {
             label1.Left += vx;
             label1.Top += vy;
+
+            if (label1.Left < 0)
+            {
+                vx = -vx;
+            }
+
+            if (label1.Top < 0)
+            {
+                vy = -vy;
+            }
+
+            if (label1.Left > 800)
+            {
+                vx = -vx;
+            }
         }
     }
 }
