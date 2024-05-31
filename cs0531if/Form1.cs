@@ -25,9 +25,14 @@ namespace cs0531if
                 vy = -vy;
             }
 
-            if (label1.Left > 800)
+            if (label1.Left > 710)
             {
                 vx = -vx;
+            }
+
+            if (label1.Top > 410)
+            {
+                vy = -vy;
             }
         }
     }
